@@ -67,25 +67,25 @@ function loadingAnimation(){
       tl.from(".hero #nav",{
         opacity:0,
       });
-      tl.from("#hero1 h1, #hero2 h1, #hero3 h2, #hero4 h1 ",{
-         y:120,
-         stagger:0.2,
-      });
+      tl.from("#hero1 h1, #hero2 h1,#hero3 h2, #hero4 h1 ",{
+         y:140,
+         stagger:0.3,
+      });    
+    //   gsap.registerPlugin(ScrollTrigger); // have to do this before using scroll-trigger
     
-      // gsap.registerPlugin(ScrollTrigger); // have to do this before using scroll-trigger
-    
-      // gsap.from("#page2", {
-      //     x: -100,
-      //     scrollTrigger: {
-      //         trigger: "#page2",
-      //         scroller: "body",
-      //         start: "top 80%",
-      //         end: "top 20%",
-      //         scrub: true,
-      //         markers: false,
-      //     }
-      // });
-    });
+    //   gsap.from("#page2", {
+    //       x: -100,
+    //       scrollTrigger: {
+    //           trigger: "#page2",
+    //           scroller: "body",
+    //           start: "top 80%",
+    //           end: "top 20%",
+    //           scrub: true,
+    //           markers: false,
+    //       }
+    //   });
+        
+});
 };
 loadingAnimation();// Calling the function
 
